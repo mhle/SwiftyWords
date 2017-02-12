@@ -14,6 +14,8 @@
 		7DBD33EC1E4F78D3007A1D16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DBD33EA1E4F78D3007A1D16 /* LaunchScreen.storyboard */; };
 		7DBD33F71E4F78D3007A1D16 /* SwiftyWordsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DBD33F61E4F78D3007A1D16 /* SwiftyWordsTests.swift */; };
 		7DBD34021E4F78D3007A1D16 /* SwiftyWordsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DBD34011E4F78D3007A1D16 /* SwiftyWordsUITests.swift */; };
+		7DBD34111E51178D007A1D16 /* level1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7DBD340F1E51178D007A1D16 /* level1.txt */; };
+		7DBD34121E51178D007A1D16 /* level2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7DBD34101E51178D007A1D16 /* level2.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		7DBD33FD1E4F78D3007A1D16 /* SwiftyWordsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyWordsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DBD34011E4F78D3007A1D16 /* SwiftyWordsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyWordsUITests.swift; sourceTree = "<group>"; };
 		7DBD34031E4F78D3007A1D16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DBD340F1E51178D007A1D16 /* level1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level1.txt; sourceTree = "<group>"; };
+		7DBD34101E51178D007A1D16 /* level2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level2.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				7DBD33E81E4F78D3007A1D16 /* Assets.xcassets */,
 				7DBD33EA1E4F78D3007A1D16 /* LaunchScreen.storyboard */,
 				7DBD33ED1E4F78D3007A1D16 /* Info.plist */,
+				7DBD340F1E51178D007A1D16 /* level1.txt */,
+				7DBD34101E51178D007A1D16 /* level2.txt */,
 			);
 			path = SwiftyWords;
 			sourceTree = "<group>";
@@ -235,7 +241,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DBD34121E51178D007A1D16 /* level2.txt in Resources */,
 				7DBD33EC1E4F78D3007A1D16 /* LaunchScreen.storyboard in Resources */,
+				7DBD34111E51178D007A1D16 /* level1.txt in Resources */,
 				7DBD33E91E4F78D3007A1D16 /* Assets.xcassets in Resources */,
 				7DBD33E71E4F78D3007A1D16 /* Main.storyboard in Resources */,
 			);
@@ -421,6 +429,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mikeware.SwiftyWords;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -434,6 +443,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mikeware.SwiftyWords;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
